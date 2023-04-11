@@ -268,13 +268,19 @@ a {
 }
 .contact-container {
    color: var(--secondary-color);
-   font-size: 1.1rem;
+   font-size: 1rem;   
+   padding-left: 1rem;
+   padding-right: 1rem;
 }
 .contact_write p {
+   font-style: italic;
    margin-top: 0.5rem;
 }
 .contact_work {
    margin-top: 2rem;
+}
+.contact_work p {
+   font-style: italic;
 }
 
 /* FOOTER */

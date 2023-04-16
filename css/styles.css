@@ -96,7 +96,8 @@ a {
    display: flex;
    justify-content: space-between;
    align-items: center; 
-   background-color: transparent;
+   /*background-color: transparent;*/
+   background-color: #fff;
    padding-right: 1.5rem; 
    padding-left: 1.5rem;
 }
@@ -132,13 +133,13 @@ a {
    padding-bottom: 2rem;
 }
 .header_navigation-link:hover {
-   color: #ddd1d1;
+   color: var(--secondary-color);
    padding-bottom: 0.5rem;
    border-bottom: 0.2rem solid #ddd1d1;
 }
 .header_navigation-link {
    text-decoration: none;
-   color: #fff;
+   color: var(--secondary-color);
 }
 .header_showcase {
    height: 90vh;

@@ -60,7 +60,7 @@ a {
    padding-bottom: 2rem;
 }
 .fa-bars {
-   color: #fff;
+   color: var(--secondary-color);
    font-size: 1.7rem;
 }
 .fa-whatsapp {
@@ -120,7 +120,7 @@ a {
    position: absolute;
    top: 10vh;
    right: 0;
-   background-color: rgba(0, 0, 0, 0.9);
+   background-color: rgba(0, 0, 0, 1);
    text-align: center;
 }
 .header_navigation-items {

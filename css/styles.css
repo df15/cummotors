@@ -154,6 +154,7 @@ a {
    color: #fff;
    text-align: center;
    font-size: 3rem;
+   display: none;
 }
 .header_showcase p {
    width: 300px;
